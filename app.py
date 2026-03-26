@@ -23,6 +23,7 @@ if question := st.chat_input("Ask anything about the document..."):
     with st.chat_message("user"):
         st.write(question)
     with st.chat_message("assistant"):
+        
         with st.spinner("Thinking..."):
             answer = ask(chain, question)
         st.write(answer)
