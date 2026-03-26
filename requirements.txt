@@ -3,7 +3,7 @@ langchain-community
 langchain-openai
 langchain-pinecone
 openai
-pinecone-client
+pinecone
 streamlit
 pypdf
 python-dotenv
